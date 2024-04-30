@@ -1,0 +1,123 @@
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.header {
+    width: 100%;
+}
+
+.header_top{
+    height: 65px;
+}
+
+.header_top_body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_logo{
+    font-size: 40px;
+    font-family: Impact;
+    color: #00A49B;
+    margin: 0;
+}
+
+.text_logo_small{
+    margin: 0
+}
+
+.header_phone {
+    text-align: center;
+}
+
+.header_menu{
+    background-color: #00A49B;
+    height: 40px;
+}
+
+.header_menu ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    padding-left: 0;
+}
+
+.header_menu  ul li{
+    list-style-type: none;
+    align-items: center;
+}
+
+.header_menu ul li a {
+    display: inline-block;
+    padding: 10px 60px 10px 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.header_phone {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.main {
+    display: block;
+}
+
+.about_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_block_content {
+    padding-left: calc((100% - 1170px) /2);
+    max-width: 525px;
+}
+
+.about_block_title {
+    font-family: Impact;
+    font-weight: 100;
+    font-size: 45px;
+    text-align: center;
+}
+
+.about_block_img {
+    width: 50%;
+}
+
+.about_block_img_body {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.about_block_img_body img{
+    width: 100%;
+    display: block;
+}
+
+.firewood_block {
+    height: 500px;
+    background-color: #00A49B;
+}
+
+.firewood_title {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.firewood_title h2 {
+    font-weight: 100;
+    font-family: Impact;
+}
